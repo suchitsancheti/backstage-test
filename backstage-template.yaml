@@ -83,7 +83,7 @@ spec:
           repoURL:
             title: Argo CD repoURL
             type: string
-            default: https://github.com/vfarcic/SOMETHING
+            default: https://github.com/suchitsancheti/backstage-test
           destinationNamespace:
             title: Argo CD destinationNamespace
             type: string
