@@ -1,0 +1,30 @@
+apiVersion: atlan.com/v1alpha1
+kind: ClusterClaim
+metadata:
+  name: test-test
+  namespace: test
+spec:
+  id: test-test
+  compositionSelector:
+    matchLabels:
+      provider: aws
+  parameters:
+    version: 15.6
+    nodeSize: small
+    minNodeCount: 1
+    namespaces: [dev,production]
+    apps:
+      crossplane:
+        enabled: true
+      argocd:
+        enabled: true
+        host: acme.com
+        repoURL: https://github.com/suchitsancheti/backstage-test
+        destinationNamespace: argo-cd
+        sourcePath: .
+      openfunction:
+        enabled: false
+      dapr:
+        enabled: false
+      traefik:
+        enabled: false
