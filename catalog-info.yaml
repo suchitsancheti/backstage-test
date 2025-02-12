@@ -13,12 +13,12 @@ metadata:
   tags:
     - go
   links:
-    - url: https://youtube.com/@devopstoolkit
-      title: DevOps Toolkit YouTube
+    - url: atlan.com
+      title: Atlan
       icon: dashboard
       type: Website
-    - url: https://devopstoolkit.live/
-      title: DevOps Toolkit Posts
+    - url: https://atlan.com/
+      title: Atlan
       icon: dashboard
       type: Website
 spec:
