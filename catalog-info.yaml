@@ -13,7 +13,7 @@ metadata:
   tags:
     - go
   links:
-    - url: atlan.com
+    - url: https://atlan.com
       title: Atlan
       icon: dashboard
       type: Website
